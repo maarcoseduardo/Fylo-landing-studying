@@ -1,6 +1,8 @@
 import { Header } from "./components/Header";
 import { Main } from "./components/Main"
-import { MainContinuos } from "./components/MainContinuos/";
+import { MainContinuos } from "./components/MainContinuos";
+import { GapFooter } from "./components/GapFooter";
+import { Footer } from "./components/Footer";
 
 export function App() {
  
@@ -9,6 +11,9 @@ export function App() {
       <Header />
       <Main/>
       <MainContinuos />
+      <GapFooter />
+      <Footer />
+
     </>
   );
 }

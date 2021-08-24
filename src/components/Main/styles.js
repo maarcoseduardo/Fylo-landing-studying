@@ -5,7 +5,8 @@ export const MainContainer = styled.main`
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;    
+    margin: 50px auto 0 auto; 
+    padding: 0 30px; 
 `;
 
 export const DivContent = styled.div`
@@ -16,7 +17,8 @@ export const DivContent = styled.div`
 
 export const H2 = styled.h2`
     display: inline-block;
-    max-width: 355px;
+    font-size: 36px;
+    
 `;
 
 
@@ -39,18 +41,22 @@ export const DivSendData = styled.div`
 
 export const Input = styled.input`
 
-    height: 33px;
+    height: 34px;
     width: 300px;
     padding: 0 0 0 10px;
+    
 `;
 
 export const Button = styled.button`
 
     width: 170px;
     border-radius: 5px;
+    border: none;
     
     background: var(--bright-blue);
     color: white;
+    
+    cursor: pointer;
 `;
 
 
@@ -59,8 +65,8 @@ export const DivImgController = styled.div`
 `;
 
 
-export const ImgContentOne = styled.img`
-    width: 700px;
+export const Img = styled.img`
+    width: 600px;
     height: 450px;
     
 `;
