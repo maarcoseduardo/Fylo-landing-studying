@@ -1,6 +1,9 @@
 import imgLogo from '../../assets/logo.svg';
 import { 
-    HeaderContainer, 
+    HeaderContainer,
+    DivLogo,
+    Anchor,
+    ImgLogo,
     UnList,
     List, 
     Navigation 
@@ -11,13 +14,9 @@ export function Header() {
     return (
         <>
             <HeaderContainer>
-
-                <div className="logo">
-
-                    <a href=""><img src={imgLogo} alt="logo" /></a>
-
-                </div>
-
+                <DivLogo>
+                    <Anchor><ImgLogo src={imgLogo} alt="logo"/> </Anchor>
+                </DivLogo>
                 <Navigation>
                     <UnList>
                         <List>Features</List>

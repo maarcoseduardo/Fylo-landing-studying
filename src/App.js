@@ -13,7 +13,6 @@ export function App() {
       <MainContinuos />
       <GapFooter />
       <Footer />
-
     </>
   );
 }

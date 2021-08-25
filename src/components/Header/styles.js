@@ -14,6 +14,15 @@ export const HeaderContainer = styled.div`
 
 `;
 
+export const DivLogo = styled.div`
+
+`;
+
+export const Anchor = styled.a`
+
+`;
+
+
 export const Navigation = styled.nav`
 
 `;
@@ -31,7 +40,7 @@ export const List = styled.li`
    color: var(--desaturated-blue);
 `;
 
-export const Img = styled.img`
+export const ImgLogo = styled.img`
 
     height: 49px;
     width: 166px;
