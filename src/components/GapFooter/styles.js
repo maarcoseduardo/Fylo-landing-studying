@@ -4,7 +4,6 @@ export const DivGapContainer = styled.div`
 
     display: flex;
     height: 250px;
-    
     margin-top: 40px;
 
     background: var(--desaturated-blue);
@@ -14,7 +13,7 @@ export const DivGapContainer = styled.div`
 export const DivContent = styled.div`
 
     max-width: 600px;
-    margin: auto 80px;
+    margin: auto 50px;
     
 `;
 
